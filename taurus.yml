@@ -1,0 +1,20 @@
+aggregator: aggregator
+
+execution:
+  scenario:
+    script: example.jmx
+    variables:
+      USERNAME: ostret
+      PASSWORD: pw41t34m
+        
+modules:
+  jmeter:
+    class: bzt.modules.jmeter.JMeterExecutor
+    path: build/jmeter/bin/jmeter
+    properties:
+      jmeter.save.saveservice.autoflush: 'true'
+      
+provisioning: local
+
+reporting:
+- module: status
