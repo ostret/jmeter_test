@@ -4,8 +4,8 @@ execution:
   scenario:
     script: um.jmx
     variables:
-      USERNAME: ostret
-      PASSWORD: pw41t34m
+      username: ostret
+      password: pw41t34m
         
 modules:
   jmeter:
