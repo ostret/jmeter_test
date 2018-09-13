@@ -15,6 +15,3 @@ modules:
       jmeter.save.saveservice.autoflush: 'true'
       
 provisioning: local
-
-reporting:
-- module: status
